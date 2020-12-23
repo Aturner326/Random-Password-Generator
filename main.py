@@ -49,7 +49,7 @@ while (i < c):
 out.close()
 j = 0
 ans = ''
-
+print("\n")
 # File is closed and provided to the user. For security purposes, the file may then be immediately deleted so a copy does not exist on the system
 while(j == 0):
     ans = input("Delete Password file? (y/n): ")
